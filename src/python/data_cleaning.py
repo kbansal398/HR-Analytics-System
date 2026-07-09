@@ -25,3 +25,17 @@ print(df.isnull().sum())
 
 print("\nDuplicate Rows")
 print(df.duplicated().sum())
+
+
+
+print("\nUnique Departments:")
+print(df["Department"].unique())
+
+print("\nUnique Job Roles:")
+print(df["JobRole"].unique())
+
+print("\nUnique Attrition Values:")
+print(df["Attrition"].unique())
+
+print("\nSummary Statistics:")
+print(df.describe())
